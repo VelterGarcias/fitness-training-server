@@ -18,6 +18,7 @@ class ContactController {
    * @param {Response} ctx.response
    * @param {View} ctx.view
    */
+  
   async index () {
     return await Contact.all()
   }

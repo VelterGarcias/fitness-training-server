@@ -3,7 +3,7 @@
 const Url = require('url-parse')
 
 /** @type {import('@adonisjs/framework/src/Env')} */
-//const Env = use('Env')
+const Env = use('Env')
 
 //se você desejar testar criando a sua própria instancia do ClearDB MySQL
 //alteração 2 para subir DB no Heroku
